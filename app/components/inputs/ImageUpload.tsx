@@ -9,7 +9,7 @@ declare global {
   var cloudinary: any;
 }
 
-const uploadPreset = "pgc9ehd5";
+const uploadPreset = "bnbair test";
 
 interface ImageUploadProps {
   onChange: (value: string) => void;
@@ -37,7 +37,7 @@ const ImageUpload: React.FC<ImageUploadProps> = ({ onChange, value }) => {
             onClick={() => open?.()}
             className="
               relative
-              mt-10
+              
               cursor-pointer
               hover:opacity-70
               transition
